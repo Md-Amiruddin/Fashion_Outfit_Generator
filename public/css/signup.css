@@ -1,0 +1,129 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: "#f0f0f0";
+}
+
+/* Container section */
+.container {
+    background-color: white;
+    border-radius: 20px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+/* banner section*/
+.banner {
+    background-color: rgb(241 239 243);
+    border-radius: 15px;
+    padding: 50px;
+    padding-bottom: 0;
+}
+
+.logo {
+    font-size: 4rem;
+    color: #ef8172;
+}
+
+.box h2 {
+    font-size: 2.2rem;
+    line-height: 1.3;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+.box p {
+    color: #8f8f8f;
+    width: 85%;
+}
+
+/* Testimonial Section */
+
+.testimony-item {
+    background-color: #48486a;
+    color: white;
+    padding: 30px 25px;
+    border-radius: 20px;
+    margin: 70px 10px;
+    height: 227px;
+}
+
+.carousel .carousel-indicators li {
+    background-color: rgb(219, 217, 217);
+    border-radius: 8px;
+    width: 8px;
+    height: 8px;
+}
+
+.carousel .carousel-indicators li.active {
+    background-color: #48486a;
+}
+
+/* Signature section */
+.signature {
+    text-align: left;
+}
+
+.profile {
+    width: 50px;
+}
+
+.signature h4 {
+    font-size: 0.9rem;
+}
+
+.signature p {
+    font-size: 0.7rem;
+    color: #8f8f8f;
+}
+
+.profile-picture {
+    float: left;
+    margin-right: 10px;
+}
+
+/* Login section */
+.login {
+    margin: 50px 40px 20px;
+}
+
+.login h2 {
+    font-size: 2rem;
+    line-height: 1.5;
+    font-weight: 650;
+}
+
+.login p {
+    color: #8f8f8f;
+    margin-bottom: 40px;
+}
+
+.login label {
+    color: #8f8f8f;
+    font-weight: 700;
+
+}
+
+input[type=text],
+input[type=email],
+input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 0 0 20px;
+    display: inline-block;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.login button {
+    margin-top: 20px;
+}
+
+.forgot-email {
+    text-align: center;
+    margin-top: 80px;
+}
+
+a:not([href]):not([tabindex]) {
+    color: blue;
+    text-decoration: none;
+}

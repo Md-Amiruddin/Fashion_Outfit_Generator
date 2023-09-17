@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up form</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="/css/signup.css">
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/e02bf820cf.js" crossorigin="anonymous"></script>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <header>
+        <h1>StyleWhiz</h1>
+    </header>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="banner">
+                    <div class="box">
+                        <h2>StyleWhiz: Carve Your Fashion Statement</h2>
+                        <p>Our registeration process is quick and easy, taking no more than a minute to complete.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Login Section -->
+            <div class="col-lg-6">
+                <div class="login">
+                    <form action="/signup" method="post">
+                        <h2>Get Started</h2>
+                        <p>Create your account below</p>
+                        <label for="Name">Full Name</label>
+                        <input type="text" placeholder="Your Name">
+                        
+                    <label for="email">Email</label>
+                    <input type="email" name="Name" placeholder="Your e-mail">
+
+                    <label for="password">Password</label>
+                    <input type="password" name="Name" placeholder="Your password">
+                    
+                    <button type="submit" class="btn btn-primary btn-lg btn-block">Sign Up</button>
+                    
+                    <p class="forgot-email">Have an account? <a href="/login">Login</a></p>
+                </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

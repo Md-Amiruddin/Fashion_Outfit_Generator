@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Outfit Suggestion App</title>
+        <link rel="stylesheet" href="/css/styles.css" />
+        <script>
+            document.addEventListener('DOMContentLoaded', function () {
+                // Function to change the image source when the button is clicked
+                function changeImage() {
+                    var imgElement = document.getElementById('outfitImage')
+                    var timestamp = new Date().getTime() // Get current timestamp to avoid caching
+                    imgElement.src = '/images/result.png?' + timestamp
+                }
+
+                // Attach the click event handler to the button
+                var generateButton = document.getElementById('generateButton')
+                generateButton.addEventListener('click', changeImage)
+            })
+        </script>
+    </head>
+    <body>
+        <header>
+            <h1>Outfit Suggestion App</h1>
+            <div style="text-align: right">
+                <button onclick = "window.location.href='/login';" class="login">Login</button>
+            </div>
+        </header>
+        <main>
+            <div class="outfit-suggestion">
+                <div class="outfit">
+                    <img
+                        id="outfitImage"
+                        src="/images/result.png"
+                        alt="Outfit Image"
+                    />
+                    <br />
+                    <center>
+                        <button id="generateButton">Generate</button>
+                    </center>
+                </div>
+                <iframe
+                    allow="microphone;"
+                    src="https://console.dialogflow.com/api-client/demo/embedded/3913da2e-942b-4080-8706-f3a90fd1868d"
+                ></iframe>
+            </div>
+        </main>
+    </body>
+</html>
